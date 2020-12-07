@@ -18,7 +18,7 @@ def sort_array_char_count(animals)
 end
 end   
 
-def swap_elements_from_to(array,index,destination_index)
+def swap_elements(array)
 array.swap do |index,destination_index|
   index == 1 
   destination_index == 2  
