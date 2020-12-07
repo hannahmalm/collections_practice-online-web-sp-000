@@ -19,8 +19,7 @@ end
 end   
 
 def swap_elements_from_to(array, index, destination_index)
-  index == 2
-  destination_index == 3
+
 end  
 
 def reverse_array(array)
