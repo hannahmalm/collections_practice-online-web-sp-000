@@ -19,9 +19,9 @@ end
 end   
 
 def swap_elements(array)
+array.swap do |index,destination_index|
   index == 1 
   destination_index == 2  
-array.swap do |index,destination_index|
 end  
 end 
 
