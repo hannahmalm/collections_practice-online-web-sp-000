@@ -22,7 +22,6 @@ def swap_elements(array)
   index == 1 
   destination_index == 2  
 array.swap do |index,destination_index|
-  return array
 end  
 end 
 
