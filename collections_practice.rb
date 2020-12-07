@@ -19,6 +19,7 @@ end
 end   
 
 def swap_elements(array)
+  #swap array element index 1 with index 2 
  array[1], array[2] = array[2], array[1]
  return array 
 end  
