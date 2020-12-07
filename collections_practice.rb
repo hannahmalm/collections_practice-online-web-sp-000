@@ -20,7 +20,8 @@ end
 
 def swap_elements_from_to(array,index,destination_index)
 array.swap do |index,destination_index|
-  
+  index == 1 
+  destination_index == 2  
 end  
 
 def reverse_array(array)
