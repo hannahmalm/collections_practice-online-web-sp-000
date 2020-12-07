@@ -19,11 +19,9 @@ end
 end   
 
 def swap_elements(array)
-array do |index,destination_index|
-  index == 1 
-  destination_index == 2  
+ array[1], array[2] = array[2], array[1]
 end  
-end 
+
 
 def reverse_array(array)
   array.reverse 
