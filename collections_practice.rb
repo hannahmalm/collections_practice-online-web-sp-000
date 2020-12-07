@@ -24,6 +24,7 @@ def swap_elements(array)
 array.swap do |index,destination_index|
   return array
 end  
+end 
 
 def reverse_array(array)
   array.reverse 
